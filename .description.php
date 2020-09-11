@@ -10,4 +10,3 @@ $arComponentDescription = array(
 	),
 );
 ?>
-
