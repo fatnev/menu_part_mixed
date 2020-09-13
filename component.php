@@ -147,3 +147,4 @@ if($this->StartResultCache(false, $USER->GetGroups()))
 }
 
 return $arResult;
+

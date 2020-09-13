@@ -66,3 +66,4 @@ $arComponentParameters = array(
 		) ,
 	) ,
 );
+
