@@ -41,7 +41,7 @@ if(empty($arParams['SHOW_ELEMENTS'])){
 }
 
 if(empty($arParams['IBLOCK_ID']) && empty($arParams['IBLOCK_CODE'])){
-	ShowError("Error in fatnev:menu.mixed. Set IBLOCK_ID or IBLOCK_CODE.");
+	ShowError("Error in gnvs:menu.mixed. Set IBLOCK_ID or IBLOCK_CODE.");
 	return $arResult;
 }
 
