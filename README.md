@@ -15,7 +15,7 @@ global $APPLICATION;
 ?>
 
 <?$aMenuLinksExt = $APPLICATION->IncludeComponent(
-	"fatnev:menu_part_mixed",       // Компонент 
+	"gnvs:menu_part_mixed",       // Компонент 
 	"",
 	array(
 		"IBLOCK_TYPE" => "trash",     // Тип инфоблока 
