@@ -2,7 +2,7 @@
 Компонент для вывода смешанных пунктов меню
 
 ### Установка компонента
-Положить /menu_part_mixed в каталог /local/components/gnvs/
+Положить /menu_part_mixed в каталог /local/components/fatnev/
 
 ### Вызов компонента
 Добавить файл с подключением, например, .left.menu_ext.php.
@@ -15,7 +15,7 @@ global $APPLICATION;
 ?>
 
 <?$aMenuLinksExt = $APPLICATION->IncludeComponent(
-	"gnvs:menu_part_mixed",       // Компонент 
+	"fatnev:menu_part_mixed",       // Компонент 
 	"",
 	array(
 		"IBLOCK_TYPE" => "trash",     // Тип инфоблока 
